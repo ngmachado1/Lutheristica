@@ -39,20 +39,33 @@ li i{
 .menu{
     display: none;
 }
+
+.social-media{
+    padding: 10px;
+}
+.fa-facebook-f, .fa-google{
+    font-size: 1.2rem;
+}
 @media screen and (max-width: 992px) {
     nav{
         display: block;
-        background-color: rgb(145, 74, 74);
+        background-color: rgb(236, 236, 236);
         height: 80px;
+
     }
     ul{
         display: block;
     }
+    ul.center{
+        padding:20px 0px 0px 0px;
+    }
     li{
-        display: none;
         margin: 20px 0px;
         font-size: 20px;
-        
+        display: none;
+    }
+    .listitem{
+        display: list-item;        
     }
     .socialmedia{
         display: none;
@@ -77,12 +90,36 @@ li i{
         top: 20px;
         right: 20px;
     }
-    .line1{
+    .line1, .line2, .line3{
         display: block;
-        height: 3px;
-        margin: 8px 5px;
-        width: 35px;
+        height: 2px;
+        margin: 7px 5px;
+        width: 30px;
 
         background-color: rgb(0, 0, 0);
+    }
+    .lines1 {
+        display: block;
+        height: 2px;
+        margin: 7px 5px;
+        width: 30px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        transform: rotate(45deg);
+        position: relative;
+        top: 8px
+    }
+    .lines3 {
+        display: block;
+        height: 2px;
+        margin: 7px 5px;
+        width: 30px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        transform: rotate(-45deg);
+        position: relative;
+    }
+    .lines2{
+        display: none;
     }
 }
