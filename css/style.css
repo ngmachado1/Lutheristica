@@ -1,0 +1,126 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.brand{
+    display: inline-block;
+}
+ul{
+    display: flex;
+}
+.center{
+    font-weight: 700;
+    text-align: center;
+}
+.socialmedia{
+    text-align: end;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.line{
+    padding-top: 5px;
+    height: 17px;
+    width: 1px;
+    background-color: black;
+    margin: 0px 15px;
+}
+li i{
+    font-size: 25px;
+}
+.menu{
+    display: none;
+}
+
+.social-media{
+    padding: 10px;
+}
+.fa-facebook-f, .fa-google{
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 992px) {
+    nav{
+        display: block;
+        background-color: rgb(236, 236, 236);
+        height: 80px;
+
+    }
+    ul{
+        display: block;
+    }
+    ul.center{
+        padding:30px 0px 0px 0px;
+    }
+    .lista{
+
+        display: none;
+    }
+    .listitem{
+        display: list-item;
+        margin: 20px 0px;
+        font-size: 22px;        
+    }
+    .socialmedia{
+        display: none;
+    }
+    .brand{
+        display: block;
+        text-align: center;
+    }
+    .center{
+        display: block;
+        text-align: center;
+    }
+    .line{
+        display: none;
+    }
+    div.menu{
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .line1, .line2, .line3{
+        display: block;
+        height: 2px;
+        margin: 7px 5px;
+        width: 30px;
+
+        background-color: rgb(0, 0, 0);
+    }
+    .lines1 {
+        display: block;
+        height: 2px;
+        margin: 7px 5px;
+        width: 30px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        transform: rotate(45deg);
+        position: relative;
+        top: 8px
+    }
+    .lines3 {
+        display: block;
+        height: 2px;
+        margin: 7px 5px;
+        width: 30px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        transform: rotate(-45deg);
+        position: relative;
+    }
+    .lines2{
+        display: none;
+    }
+}

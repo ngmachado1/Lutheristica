@@ -19,7 +19,7 @@ function menu(){
             line1.className="lines1",
             line2.className="lines2",
             line3.className="lines3",
-            ulCenter.style.height = "300px",
+            ulCenter.style.height = "350px",
             ulCenter.style.transition = "ease 0.6s"
         }else{
             for(i=0; i<lista.length; i++){
@@ -30,12 +30,17 @@ function menu(){
             line3.className="line3"
             lista.className=""
             ulCenter.style.height = "80px"
-
         }
     })
-
-
 }
 
 
 menu();
+
+
+new Splide( '.splide', {
+    type   : 'loop',
+    rewind     : true,
+    heightRatio: 0.5,
+    pagination : false,
+    focus    : 'center'} ).mount();
