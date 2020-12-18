@@ -1,4 +1,3 @@
-
 function menu(){
     const menu = document.querySelector('.menu');
     const line1 = document.querySelector('.line1');
@@ -44,3 +43,4 @@ new Splide( '.splide', {
     heightRatio: 0.5,
     pagination : false,
     focus    : 'center'} ).mount();
+

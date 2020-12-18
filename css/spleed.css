@@ -1,3 +1,4 @@
+
 @keyframes splide-loading {
 	0% {
 		transform: rotate(0)
@@ -247,4 +248,5 @@
 	max-height: 80vh;
 }
 .splide__slide{width: 100%;}
+
 .splide__slide img{width: 100%; max-height: 80vh;} 
