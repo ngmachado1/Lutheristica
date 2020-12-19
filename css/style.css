@@ -1,16 +1,42 @@
 
 *{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+p{
+    font-weight: 300;
+    padding: 0px 0px 20px 0px;
+    line-height: 2em;
+    font-size: 1.1em;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    z-index: 1;
+    top: 0px;
+    position: fixed;
+    padding: 30px 0px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
 }
 .brand{
     display: inline-block;
+    width: 220px;
+    margin-left: 20px;
+}
+.brand img{
+    width: 100%;
 }
 ul{
     display: flex;
@@ -21,11 +47,14 @@ ul{
 }
 .socialmedia{
     text-align: end;
+    margin-right: 20px;
 }
 li{
     list-style-type: none;
     display: inline-block;
     text-transform: uppercase;
+    font-weight: 500;
+
 }
 .line{
     padding-top: 5px;
@@ -39,26 +68,198 @@ li i{
 }
 .menu{
     display: none;
+    z-index: 2;
 }
 
 .social-media{
     padding: 10px;
 }
-.fa-facebook-f, .fa-google{
+.socialmedia-icon{
     font-size: 1.2rem;
 }
+i.fab.fa-instagram {
+    bottom: 2px;
+    position: relative;
+}
+/*header slide*/
+
+.title-header h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 2;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 5em;
+    color:#ffffff
+}
+.cuerpo-quienes-somos{
+    column-count: 2;
+    column-gap: 40px;
+}
+
+/*section quienes somos*/
+
+.quienes-somos{
+    padding-top: 100px;
+}
+.cuerpo-quienes-somos{
+    column-count: 2;
+    column-gap: 40px;
+    padding-top: 50px;
+}
+/*OBJETIVOS DE LA RED*/
+div.card{
+    height: 85%;
+    margin: 2rem auto;
+    display: block;
+    border-radius: 20px;
+    max-width: 270px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+}
+div.card-img{
+    height: 150px;
+    width: 100%;
+}
+div.card-img img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding-top: 14%;
+}
+.imgcircle{
+    border-radius: 40%;
+}
+div.card-img-circle{
+    width: 100px;
+    background-color: #a3ed93;
+    height: 100px;
+    border-radius: 50%;
+    margin:auto;
+    display: block;
+    transform: translateY(25%);
+}
+div.card-o-title{
+    text-align: center;
+    text-transform: uppercase;
+    color:#52555e;
+}
+div.card-body{
+    font-weight: 200;
+    padding: 20px;
+}
+/*card BLOG*/
+
+div.card-blog{
+    margin: 1.5rem auto;
+    display: block;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(145,145,145,0.25);
+}
+div.card-title{
+    text-align: center;
+}
+/*Novedades*/
+
+/*buttons*/
+button.primary{
+    padding: 13px 38px;
+    border: solid #554EC6 1px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    color: #554EC6;
+    margin: 19px;
+}
+button.secondary{
+    padding: 9px 38px;
+    border: solid #554EC6 1px;
+    border-radius: 40px;
+    background-color: #554EC6;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    margin: 19px auto;
+    
+}
+button.primary.active{
+    border: none;
+    color: #ffffff;
+    background: -moz-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -o-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -ms-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: linear-gradient(to right, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+}
+/*FOOTER*/
+footer{
+    padding-bottom: 40px;
+    background: -moz-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -o-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -ms-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: linear-gradient(to right, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+}
+/*FORM*/
+.white-text{
+    color: #ffffff
+}
+.form-control input, textarea{
+    width: 80%;
+    height: 40px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: solid #ffffff 1px;
+    margin: 10px auto;
+    display: block;
+    background-color: #ffffff;
+    color: #554EC6;
+    font-size: 0.9em;
+
+}
+.form-control input, textarea:focus{
+    outline: none;
+}
+.form-control textarea{
+    padding: 15px;
+    height: 70px;
+}
+.footer-sm-ig{
+    font-size: 3.5em;
+    padding: 30px;
+}
+.footer-sm-fg{
+    font-size: 3em;
+    padding: 30px;
+}
+footer .socialmedia a{
+    color: #ffffff
+}
+
+
+
 @media screen and (max-width: 992px) {
+    h2{
+        font-size: 2rem;
+    }
     nav{
         display: block;
-        background-color: rgb(236, 236, 236);
-        height: 80px;
+        background-color: #ffffff;
+        height: 20px;
 
     }
     ul{
         display: block;
     }
     ul.center{
-        padding:30px 0px 0px 0px;
+        padding:15px 0px 0px 0px;
     }
     .lista{
 
@@ -75,6 +276,8 @@ li i{
     .brand{
         display: block;
         text-align: center;
+        width: 220px;
+        margin:auto;
     }
     .center{
         display: block;
@@ -88,7 +291,7 @@ li i{
         height: 50px;
         width: 50px;
         background-color: transparent;
-        position: absolute;
+        position: fixed;
         top: 20px;
         right: 20px;
     }
@@ -124,4 +327,19 @@ li i{
     .lines2{
         display: none;
     }
+    .title-header h1{
+        font-size: 3em; 
+    }
+    .splide__pagination {
+        top: 80% !important;
+    }
+    .quienes-somos{
+        padding-top: 80px;
+    }
+    .cuerpo-quienes-somos{
+        column-count: 1;
+
+    }
+
 }
+

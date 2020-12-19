@@ -12,9 +12,11 @@ function menu(){
         if(line1.className=="line1",
         line2.className=="line2",
         line3.className=="line3"){
-            for(i=0; i<lista.length; i++){
+            setTimeout(()=>{
+                for(i=0; i<lista.length; i++){
                 lista[i].className="listitem"
-            }
+            }}, 700);
+
             line1.className="lines1",
             line2.className="lines2",
             line3.className="lines3",
@@ -28,7 +30,7 @@ function menu(){
             line2.className="line2",
             line3.className="line3"
             lista.className=""
-            ulCenter.style.height = "80px"
+            ulCenter.style.height = "20px"
         }
     })
 }
@@ -42,5 +44,6 @@ new Splide( '.splide', {
     rewind     : true,
     heightRatio: 0.5,
     pagination : false,
-    focus    : 'center'} ).mount();
+    focus    : 'center'
+} ).mount();
 
