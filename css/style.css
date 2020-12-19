@@ -249,6 +249,9 @@ footer .socialmedia a{
 
 
 @media screen and (max-width: 992px) {
+    .container{
+        margin: 0px 30px; 
+    }
     h2{
         font-size: 2rem;
     }
