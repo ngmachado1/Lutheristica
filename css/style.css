@@ -97,10 +97,6 @@ i.fab.fa-instagram {
     font-size: 5em;
     color:#ffffff
 }
-.cuerpo-quienes-somos{
-    column-count: 2;
-    column-gap: 40px;
-}
 
 /*section quienes somos*/
 
@@ -108,7 +104,7 @@ i.fab.fa-instagram {
     padding-top: 100px;
 }
 .cuerpo-quienes-somos{
-    column-count: 2;
+    column-count: 1;
     column-gap: 40px;
     padding-top: 50px;
 }
