@@ -10,6 +10,7 @@ h3{
     font-size: 1.7rem;
 }
 p{
+    overflow-wrap: break-word;
     font-weight: 300;
     padding: 0px 0px 20px 0px;
     line-height: 2em;
@@ -105,8 +106,10 @@ i.fab.fa-instagram {
 }
 .cuerpo-quienes-somos{
     column-count: 1;
-    column-gap: 40px;
     padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 /*OBJETIVOS DE LA RED*/
 div.card{
@@ -241,11 +244,16 @@ footer{
 footer .socialmedia a{
     color: #ffffff
 }
+.margint-5{
+    margin-top: 3rem;
+}
 
 
 
 @media screen and (max-width: 992px) {
-
+    .margint-5{
+        margin-top: 7rem;
+    }
     h2{
         font-size: 2rem;
     }
@@ -328,7 +336,7 @@ footer .socialmedia a{
         display: none;
     }
     .title-header h1{
-        font-size: 3em; 
+        font-size: 2em; 
     }
     .splide__pagination {
         top: 80% !important;
@@ -340,6 +348,18 @@ footer .socialmedia a{
         column-count: 1;
 
     }
-
+    .logo{
+        display: none;
+    }
+     div.card-blog {
+        max-width: 300px;
+    }
+    .container{
+        padding: 0px !important ;
+    }
+    .row{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
 }
 
