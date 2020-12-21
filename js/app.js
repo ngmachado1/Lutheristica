@@ -71,14 +71,37 @@ window.addEventListener('DOMContentLoaded', ()=>{
   const getItems = ()=>{
     dbref.on('value',function(snapshot){
   
-        snapshot.forEach(function(childSnapshot) {
-    
-            console.log(childSnapshot)
-    
-            console.log(childSnapshot.val())
-        })
+        blog_render('blog', snapshot)
     
     })
   }  
 
+  const blog_component = (childSnapshot) =>{
+      return `            
+    <div class="col-md-12 col-sm-12 col-lg-4">
+        <div class="card-blog">
+            <div class="card-img">
 
+            </div>
+            <div class="card-title">
+                ${childSnapshot.val().titulo}
+            </div>
+            <div class="card-body">
+                ${childSnapshot.val().cuerpo}
+            </div>
+            <button class="primary">Ver más</button>
+        </div>
+    </div>
+`
+  }
+
+  const blog_render = (containerId, snapshot) =>{
+    
+        let container = document.getElementById(containerId);
+        container.innerHTML = "";
+        let html = '';
+        snapshot.forEach((childSnapshot) => {
+            html = html + blog_component(childSnapshot)
+        });
+        container.innerHTML = html;
+  }
