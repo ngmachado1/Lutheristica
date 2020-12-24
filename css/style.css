@@ -177,6 +177,23 @@ button.primary{
     font-weight: 300;
     color: #554EC6;
     margin: 19px;
+    transition: all 0.3s ease;
+}
+button.primary.active{
+    border: #ffffff 1px solid;
+    color: #ffffff;
+    background: -moz-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -o-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: -ms-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+    background: linear-gradient(to right, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
+}
+
+button.primary:hover{
+    font-weight: 300;
+    background-color: #554EC6;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 button.secondary{
     padding: 9px 38px;
@@ -188,17 +205,28 @@ button.secondary{
     color: #ffffff;
     display: block;
     margin: 19px auto;
-    
+    transition: all 0.5s ease;
+
 }
-button.primary.active{
-    border: none;
+button.edit{
+    padding: 13px 38px;
+    border: solid #00bd84 1px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    color: #00bd84;
+    margin: 19px;
+    transition: all 0.3s ease;
+
+}
+button.edit:hover{
+    font-weight: 300;
+    background-color: #00bd84;
+    border: #ffffff 1px solid;
     color: #ffffff;
-    background: -moz-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
-    background: -webkit-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
-    background: -o-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
-    background: -ms-linear-gradient(left, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
-    background: linear-gradient(to right, rgba(65,233,118,1) 0%, rgba(2,153,173,1) 49%, rgba(73,61,209,1) 100%);
 }
+
 /*FOOTER*/
 footer{
     padding-bottom: 40px;
@@ -286,10 +314,19 @@ div.radios input{
     margin: 20px 3px 3px 30px;
 
 }
+.image-file input{
+    padding: 7px 15px;
+    margin: 20px 3px 3px 30px;
+
+}
 
 @media screen and (max-width: 992px) {
     .margint-5{
         margin-top: 7rem;
+    }
+    h3{
+        font-size: 1.5rem;
+
     }
     h2{
         font-size: 2rem;
@@ -298,7 +335,7 @@ div.radios input{
         display: block;
         background-color: #ffffff;
         height: 20px;
-
+        width: 100%;
     }
     ul{
         display: block;
@@ -321,7 +358,7 @@ div.radios input{
     .brand{
         display: block;
         text-align: center;
-        width: 220px;
+        width: 100px;
         margin:auto;
     }
     .center{
@@ -397,5 +434,15 @@ div.radios input{
     .row{
         margin-right: 0px !important;
         margin-left: 0px !important;
+    }
+    div.names input{
+        width: 70%;
+
+    }
+    div.selects select{
+        width: 80%;
+    }
+    .d-flex{
+        flex-direction: column;
     }
 }
