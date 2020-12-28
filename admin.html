@@ -63,9 +63,9 @@
                 </div>
             </div>
             <form action="">
-                <div class="row">
+                <div class="row"> 
                     
-                    <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="card-dashboard">
                             <div class="container">
 
@@ -75,7 +75,7 @@
                                 <input type="text" placeholder="Apellido">
                             </div>
                             <div class="selects">
-                                <select name="Pais" id="">
+                                <select name="Pais" id="paises">
                                     <option value="">Elegí País</option>
                                 </select>
                                 <select name="Provincia" id="">
@@ -146,32 +146,10 @@
         </div>
     </footer>
 <!-- SPLIDE -->
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <!-- Jquery needed -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
-
-
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
-<script src="js/app.js"></script>
-<script>
-      // Initialize the FirebaseUI Widget using Firebase.
-var ui = new firebaseui.auth.AuthUI(firebase.auth());
-ui.start('#firebaseui-auth-container', {
-    signInOptions: [
-      {
-        provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
-        requireDisplayName: false
-      }
-    ]
-  });
-</script>
+<script src="js/admin.js"></script>
 </body>
 </html>
