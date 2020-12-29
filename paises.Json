@@ -3,312 +3,312 @@
         "name": "Argentina",
         "provincias": [
             {
-                "nombre_completo": "Provincia de Misiones",
+                "name_completo": "Provincia de Misiones",
                 "fuente": "IGN",
                 "iso_id": "AR-N",
-                "nombre": "Misiones",
+                "name": "Misiones",
                 "id": "54",
                 "categoria": "Provincia",
-                "iso_nombre": "Misiones",
+                "iso_name": "Misiones",
                 "centroide": {
                     "lat": -26.8753965086829,
                     "lon": -54.6516966230371
                 }
             },
             {
-                "nombre_completo": "Provincia de San Luis",
+                "name_completo": "Provincia de San Luis",
                 "fuente": "IGN",
                 "iso_id": "AR-D",
-                "nombre": "San Luis",
+                "name": "San Luis",
                 "id": "74",
                 "categoria": "Provincia",
-                "iso_nombre": "San Luis",
+                "iso_name": "San Luis",
                 "centroide": {
                     "lat": -33.7577257449137,
                     "lon": -66.0281298195836
                 }
             },
             {
-                "nombre_completo": "Provincia de San Juan",
+                "name_completo": "Provincia de San Juan",
                 "fuente": "IGN",
                 "iso_id": "AR-J",
-                "nombre": "San Juan",
+                "name": "San Juan",
                 "id": "70",
                 "categoria": "Provincia",
-                "iso_nombre": "San Juan",
+                "iso_name": "San Juan",
                 "centroide": {
                     "lat": -30.8653679979618,
                     "lon": -68.8894908486844
                 }
             },
             {
-                "nombre_completo": "Provincia de Entre Ríos",
+                "name_completo": "Provincia de Entre Ríos",
                 "fuente": "IGN",
                 "iso_id": "AR-E",
-                "nombre": "Entre Ríos",
+                "name": "Entre Ríos",
                 "id": "30",
                 "categoria": "Provincia",
-                "iso_nombre": "Entre Ríos",
+                "iso_name": "Entre Ríos",
                 "centroide": {
                     "lat": -32.0588735436448,
                     "lon": -59.2014475514635
                 }
             },
             {
-                "nombre_completo": "Provincia de Santa Cruz",
+                "name_completo": "Provincia de Santa Cruz",
                 "fuente": "IGN",
                 "iso_id": "AR-Z",
-                "nombre": "Santa Cruz",
+                "name": "Santa Cruz",
                 "id": "78",
                 "categoria": "Provincia",
-                "iso_nombre": "Santa Cruz",
+                "iso_name": "Santa Cruz",
                 "centroide": {
                     "lat": -48.8154851827063,
                     "lon": -69.9557621671973
                 }
             },
             {
-                "nombre_completo": "Provincia de Río Negro",
+                "name_completo": "Provincia de Río Negro",
                 "fuente": "IGN",
                 "iso_id": "AR-R",
-                "nombre": "Río Negro",
+                "name": "Río Negro",
                 "id": "62",
                 "categoria": "Provincia",
-                "iso_nombre": "Río Negro",
+                "iso_name": "Río Negro",
                 "centroide": {
                     "lat": -40.4057957178801,
                     "lon": -67.229329893694
                 }
             },
             {
-                "nombre_completo": "Provincia del Chubut",
+                "name_completo": "Provincia del Chubut",
                 "fuente": "IGN",
                 "iso_id": "AR-U",
-                "nombre": "Chubut",
+                "name": "Chubut",
                 "id": "26",
                 "categoria": "Provincia",
-                "iso_nombre": "Chubut",
+                "iso_name": "Chubut",
                 "centroide": {
                     "lat": -43.7886233529878,
                     "lon": -68.5267593943345
                 }
             },
             {
-                "nombre_completo": "Provincia de Córdoba",
+                "name_completo": "Provincia de Córdoba",
                 "fuente": "IGN",
                 "iso_id": "AR-X",
-                "nombre": "Córdoba",
+                "name": "Córdoba",
                 "id": "14",
                 "categoria": "Provincia",
-                "iso_nombre": "Córdoba",
+                "iso_name": "Córdoba",
                 "centroide": {
                     "lat": -32.142932663607,
                     "lon": -63.8017532741662
                 }
             },
             {
-                "nombre_completo": "Provincia de Mendoza",
+                "name_completo": "Provincia de Mendoza",
                 "fuente": "IGN",
                 "iso_id": "AR-M",
-                "nombre": "Mendoza",
+                "name": "Mendoza",
                 "id": "50",
                 "categoria": "Provincia",
-                "iso_nombre": "Mendoza",
+                "iso_name": "Mendoza",
                 "centroide": {
                     "lat": -34.6298873058957,
                     "lon": -68.5831228183798
                 }
             },
             {
-                "nombre_completo": "Provincia de La Rioja",
+                "name_completo": "Provincia de La Rioja",
                 "fuente": "IGN",
                 "iso_id": "AR-F",
-                "nombre": "La Rioja",
+                "name": "La Rioja",
                 "id": "46",
                 "categoria": "Provincia",
-                "iso_nombre": "La Rioja",
+                "iso_name": "La Rioja",
                 "centroide": {
                     "lat": -29.685776298315,
                     "lon": -67.1817359694432
                 }
             },
             {
-                "nombre_completo": "Provincia de Catamarca",
+                "name_completo": "Provincia de Catamarca",
                 "fuente": "IGN",
                 "iso_id": "AR-K",
-                "nombre": "Catamarca",
+                "name": "Catamarca",
                 "id": "10",
                 "categoria": "Provincia",
-                "iso_nombre": "Catamarca",
+                "iso_name": "Catamarca",
                 "centroide": {
                     "lat": -27.3358332810217,
                     "lon": -66.9476824299928
                 }
             },
             {
-                "nombre_completo": "Provincia de La Pampa",
+                "name_completo": "Provincia de La Pampa",
                 "fuente": "IGN",
                 "iso_id": "AR-L",
-                "nombre": "La Pampa",
+                "name": "La Pampa",
                 "id": "42",
                 "categoria": "Provincia",
-                "iso_nombre": "La Pampa",
+                "iso_name": "La Pampa",
                 "centroide": {
                     "lat": -37.1315537735949,
                     "lon": -65.4466546606951
                 }
             },
             {
-                "nombre_completo": "Provincia de Santiago del Estero",
+                "name_completo": "Provincia de Santiago del Estero",
                 "fuente": "IGN",
                 "iso_id": "AR-G",
-                "nombre": "Santiago del Estero",
+                "name": "Santiago del Estero",
                 "id": "86",
                 "categoria": "Provincia",
-                "iso_nombre": "Santiago del Estero",
+                "iso_name": "Santiago del Estero",
                 "centroide": {
                     "lat": -27.7824116550944,
                     "lon": -63.2523866568588
                 }
             },
             {
-                "nombre_completo": "Provincia de Corrientes",
+                "name_completo": "Provincia de Corrientes",
                 "fuente": "IGN",
                 "iso_id": "AR-W",
-                "nombre": "Corrientes",
+                "name": "Corrientes",
                 "id": "18",
                 "categoria": "Provincia",
-                "iso_nombre": "Corrientes",
+                "iso_name": "Corrientes",
                 "centroide": {
                     "lat": -28.7743047046407,
                     "lon": -57.8012191977913
                 }
             },
             {
-                "nombre_completo": "Provincia de Santa Fe",
+                "name_completo": "Provincia de Santa Fe",
                 "fuente": "IGN",
                 "iso_id": "AR-S",
-                "nombre": "Santa Fe",
+                "name": "Santa Fe",
                 "id": "82",
                 "categoria": "Provincia",
-                "iso_nombre": "Santa Fe",
+                "iso_name": "Santa Fe",
                 "centroide": {
                     "lat": -30.7069271588117,
                     "lon": -60.9498369430241
                 }
             },
             {
-                "nombre_completo": "Provincia de Tucumán",
+                "name_completo": "Provincia de Tucumán",
                 "fuente": "IGN",
                 "iso_id": "AR-T",
-                "nombre": "Tucumán",
+                "name": "Tucumán",
                 "id": "90",
                 "categoria": "Provincia",
-                "iso_nombre": "Tucumán",
+                "iso_name": "Tucumán",
                 "centroide": {
                     "lat": -26.9478001830786,
                     "lon": -65.3647579441481
                 }
             },
             {
-                "nombre_completo": "Provincia del Neuquén",
+                "name_completo": "Provincia del Neuquén",
                 "fuente": "IGN",
                 "iso_id": "AR-Q",
-                "nombre": "Neuquén",
+                "name": "Neuquén",
                 "id": "58",
                 "categoria": "Provincia",
-                "iso_nombre": "Neuquén",
+                "iso_name": "Neuquén",
                 "centroide": {
                     "lat": -38.6417575824599,
                     "lon": -70.1185705180601
                 }
             },
             {
-                "nombre_completo": "Provincia de Salta",
+                "name_completo": "Provincia de Salta",
                 "fuente": "IGN",
                 "iso_id": "AR-A",
-                "nombre": "Salta",
+                "name": "Salta",
                 "id": "66",
                 "categoria": "Provincia",
-                "iso_nombre": "Salta",
+                "iso_name": "Salta",
                 "centroide": {
                     "lat": -24.2991344492002,
                     "lon": -64.8144629600627
                 }
             },
             {
-                "nombre_completo": "Provincia del Chaco",
+                "name_completo": "Provincia del Chaco",
                 "fuente": "IGN",
                 "iso_id": "AR-H",
-                "nombre": "Chaco",
+                "name": "Chaco",
                 "id": "22",
                 "categoria": "Provincia",
-                "iso_nombre": "Chaco",
+                "iso_name": "Chaco",
                 "centroide": {
                     "lat": -26.3864309061226,
                     "lon": -60.7658307438603
                 }
             },
             {
-                "nombre_completo": "Provincia de Formosa",
+                "name_completo": "Provincia de Formosa",
                 "fuente": "IGN",
                 "iso_id": "AR-P",
-                "nombre": "Formosa",
+                "name": "Formosa",
                 "id": "34",
                 "categoria": "Provincia",
-                "iso_nombre": "Formosa",
+                "iso_name": "Formosa",
                 "centroide": {
                     "lat": -24.894972594871,
                     "lon": -59.9324405800872
                 }
             },
             {
-                "nombre_completo": "Provincia de Jujuy",
+                "name_completo": "Provincia de Jujuy",
                 "fuente": "IGN",
                 "iso_id": "AR-Y",
-                "nombre": "Jujuy",
+                "name": "Jujuy",
                 "id": "38",
                 "categoria": "Provincia",
-                "iso_nombre": "Jujuy",
+                "iso_name": "Jujuy",
                 "centroide": {
                     "lat": -23.3200784211351,
                     "lon": -65.7642522180337
                 }
             },
             {
-                "nombre_completo": "Ciudad Autónoma de Buenos Aires",
+                "name_completo": "Ciudad Autónoma de Buenos Aires",
                 "fuente": "IGN",
                 "iso_id": "AR-C",
-                "nombre": "Ciudad Autónoma de Buenos Aires",
+                "name": "Ciudad Autónoma de Buenos Aires",
                 "id": "02",
                 "categoria": "Ciudad Autónoma",
-                "iso_nombre": "Ciudad Autónoma de Buenos Aires",
+                "iso_name": "Ciudad Autónoma de Buenos Aires",
                 "centroide": {
                     "lat": -34.6144934119689,
                     "lon": -58.4458563545429
                 }
             },
             {
-                "nombre_completo": "Provincia de Buenos Aires",
+                "name_completo": "Provincia de Buenos Aires",
                 "fuente": "IGN",
                 "iso_id": "AR-B",
-                "nombre": "Buenos Aires",
+                "name": "Buenos Aires",
                 "id": "06",
                 "categoria": "Provincia",
-                "iso_nombre": "Buenos Aires",
+                "iso_name": "Buenos Aires",
                 "centroide": {
                     "lat": -36.6769415180527,
                     "lon": -60.5588319815719
                 }
             },
             {
-                "nombre_completo": "Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+                "name_completo": "Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur",
                 "fuente": "IGN",
                 "iso_id": "AR-V",
-                "nombre": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+                "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
                 "id": "94",
                 "categoria": "Provincia",
-                "iso_nombre": "Tierra del Fuego",
+                "iso_name": "Tierra del Fuego",
                 "centroide": {
                     "lat": -82.52151781221,
                     "lon": -50.7427486049785
@@ -674,7 +674,7 @@
         "Provincias": [
             {
                 "id": "1",
-                "nombre": "Pinar del Río",
+                "name": "Pinar del Río",
                 "municipios": [
                     "Consolación del Sur",
                     "Guane",
@@ -691,7 +691,7 @@
             },
             {
                 "id": "2",
-                "nombre": "Artemisa",
+                "name": "Artemisa",
                 "municipios": [
                     "Alquízar",
                     "Artemisa",
@@ -708,7 +708,7 @@
             },
             {
                 "id": "3",
-                "nombre": "Mayabeque",
+                "name": "Mayabeque",
                 "municipios": [
                     "Batabanó",
                     "Bejucal",
@@ -725,7 +725,7 @@
             },
             {
                 "id": "4",
-                "nombre": "La Habana",
+                "name": "La Habana",
                 "municipios": [
                     "Arroyo Naranjo",
                     "Boyeros",
@@ -746,7 +746,7 @@
             },
             {
                 "id": "5",
-                "nombre": "Matanzas",
+                "name": "Matanzas",
                 "municipios": [
                     "Calimete",
                     "Cárdenas",
@@ -765,7 +765,7 @@
             },
             {
                 "id": "6",
-                "nombre": "Cienfuegos",
+                "name": "Cienfuegos",
                 "municipios": [
                     "Abreus",
                     "Aguada de Pasajeros",
@@ -779,7 +779,7 @@
             },
             {
                 "id": "7",
-                "nombre": "Villa Clara",
+                "name": "Villa Clara",
                 "municipios": [
                     "Caibarién",
                     "Camajuaní",
@@ -798,7 +798,7 @@
             },
             {
                 "id": "8",
-                "nombre": "Sancti Spíritus",
+                "name": "Sancti Spíritus",
                 "municipios": [
                     "Cabaigúan",
                     "Fomento",
@@ -812,7 +812,7 @@
             },
             {
                 "id": "9",
-                "nombre": "Ciego de Ávila",
+                "name": "Ciego de Ávila",
                 "municipio": [
                     "Ciro Redondo",
                     "Baraguá",
@@ -828,7 +828,7 @@
             },
             {
                 "id": "10",
-                "nombre": "Camagüey",
+                "name": "Camagüey",
                 "municipios": [
                     "Camagüey",
                     "Carlos Manuel de Céspedes",
@@ -847,7 +847,7 @@
             },
             {
                 "id": "11",
-                "nombre": "Las Tunas",
+                "name": "Las Tunas",
                 "municipios": [
                     "Amancio Rodríguez",
                     "Colombia",
@@ -861,7 +861,7 @@
             },
             {
                 "id": "12",
-                "nombre": "Holguín",
+                "name": "Holguín",
                 "municipios": [
                     "Antilla",
                     "Báguanos",
@@ -881,7 +881,7 @@
             },
             {
                 "id": "13",
-                "nombre": "Santiago de Cuba",
+                "name": "Santiago de Cuba",
                 "municipios": [
                     "Contramaestre",
                     "Guamá",
@@ -896,7 +896,7 @@
             },
             {
                 "id": "14",
-                "nombre": "Guantánamo",
+                "name": "Guantánamo",
                 "municipios": [
                     "Baracoa",
                     "Caimanera",
@@ -912,11 +912,11 @@
             },
             {
                 "id": "15",
-                "nombre": "Isla de la Juventud"
+                "name": "Isla de la Juventud"
             },
             {
                 "id": 16,
-                "nombre": "Granma",
+                "name": "Granma",
                 "municipios": [
                     "Bartolomé Masó",
                     "Bayamo",
@@ -938,77 +938,378 @@
     {
         "name": "Ecuador",
         "provincias": [
-            {"name" : "Guayaquil"},
-            {"name" : "Quito"},
-            {"name" : "Cuenca"},
-            {"name" : "Santo Domingo de los Colorados"},
-            {"name" : "Machala"},
-            {"name" : "Manta"},
-            {"name" : "Portoviejo"},
-            {"name" : "Loja"},
-            {"name" : "Ambato"},
-            {"name" : "Esmeraldas"},
-            {"name" : "Quevedo"},
-            {"name" : "Riobamba"},
-            {"name" : "Milagro"},
-            {"name" : "Ibarra"},
-            {"name" : "Babahoyo"},
-            {"name" : "Salgolquí"},
-            {"name" : "Pelileo"},
-            {"name" : "Daule"},
-            {"name" : "Latacunga"},
-            {"name" : "Tulcán"},
-            {"name" : "Chone"},
-            {"name" : "Pasaje"},
-            {"name" : "Santa Rosa"},
-            {"name" : "Nueva Loja"},
-            {"name" : "Huaquillas"},
-            {"name" : "Montecristi"},
-            {"name" : "Samborodón"},
-            {"name" : "Puerto Francisco de Orellana"},
-            {"name" : "Jipijapa"},
-            {"name" : "Santa Elena"},
-            {"name" : "Otavalo"},
-            {"name" : "Cayambe"},
-            {"name" : "San Jacinto de Buena Fe"},
-            {"name" : "Ventanas"},
-            {"name" : "Velasco Ibarra"},
-            {"name" : "La Troncal"},
-            {"name" : "Salinas"},
-            {"name" : "Azogues"},
-            {"name" : "Vinces"},
-            {"name" : "La Concordia"},
-            {"name" : "Rosa Zarate"},
-            {"name" : "Balzar"},
-            {"name" : "Naranjito"},
-            {"name" : "Naranjal"},
-            {"name" : "Puyo"},
-            {"name" : "Guaranda"},
-            {"name" : "La Maná"},
-            {"name" : "Tena"},
-            {"name" : "San Lorenzo de Esmeraldas"},
-            {"name" : "Catamayo"},
-            {"name" : "Macas"},
-            {"name" : "Zamora"},
-            {"name" : "Puerto Baquerizo Moreno"}
-            
+            {
+                "name": "Guayaquil"
+            },
+            {
+                "name": "Quito"
+            },
+            {
+                "name": "Cuenca"
+            },
+            {
+                "name": "Santo Domingo de los Colorados"
+            },
+            {
+                "name": "Machala"
+            },
+            {
+                "name": "Manta"
+            },
+            {
+                "name": "Portoviejo"
+            },
+            {
+                "name": "Loja"
+            },
+            {
+                "name": "Ambato"
+            },
+            {
+                "name": "Esmeraldas"
+            },
+            {
+                "name": "Quevedo"
+            },
+            {
+                "name": "Riobamba"
+            },
+            {
+                "name": "Milagro"
+            },
+            {
+                "name": "Ibarra"
+            },
+            {
+                "name": "Babahoyo"
+            },
+            {
+                "name": "Salgolquí"
+            },
+            {
+                "name": "Pelileo"
+            },
+            {
+                "name": "Daule"
+            },
+            {
+                "name": "Latacunga"
+            },
+            {
+                "name": "Tulcán"
+            },
+            {
+                "name": "Chone"
+            },
+            {
+                "name": "Pasaje"
+            },
+            {
+                "name": "Santa Rosa"
+            },
+            {
+                "name": "Nueva Loja"
+            },
+            {
+                "name": "Huaquillas"
+            },
+            {
+                "name": "Montecristi"
+            },
+            {
+                "name": "Samborodón"
+            },
+            {
+                "name": "Puerto Francisco de Orellana"
+            },
+            {
+                "name": "Jipijapa"
+            },
+            {
+                "name": "Santa Elena"
+            },
+            {
+                "name": "Otavalo"
+            },
+            {
+                "name": "Cayambe"
+            },
+            {
+                "name": "San Jacinto de Buena Fe"
+            },
+            {
+                "name": "Ventanas"
+            },
+            {
+                "name": "Velasco Ibarra"
+            },
+            {
+                "name": "La Troncal"
+            },
+            {
+                "name": "Salinas"
+            },
+            {
+                "name": "Azogues"
+            },
+            {
+                "name": "Vinces"
+            },
+            {
+                "name": "La Concordia"
+            },
+            {
+                "name": "Rosa Zarate"
+            },
+            {
+                "name": "Balzar"
+            },
+            {
+                "name": "Naranjito"
+            },
+            {
+                "name": "Naranjal"
+            },
+            {
+                "name": "Puyo"
+            },
+            {
+                "name": "Guaranda"
+            },
+            {
+                "name": "La Maná"
+            },
+            {
+                "name": "Tena"
+            },
+            {
+                "name": "San Lorenzo de Esmeraldas"
+            },
+            {
+                "name": "Catamayo"
+            },
+            {
+                "name": "Macas"
+            },
+            {
+                "name": "Zamora"
+            },
+            {
+                "name": "Puerto Baquerizo Moreno"
+            }
         ]
     },
     {
         "name": "El Salvador",
-        "provincias": []
+        "provincias": [
+            {
+                "name": "Ahuachapán"
+            },
+            {
+                "name": "Cabañas"
+            },
+            {
+                "name": "Chalatenango"
+            },
+            {
+                "name": "Cuscatlán"
+            },
+            {
+                "name": "La Libertad"
+            },
+            {
+                "name": "La Paz"
+            },
+            {
+                "name": "La Unión"
+            },
+            {
+                "name": "Morazán"
+            },
+            {
+                "name": "San Miguel"
+            },
+            {
+                "name": "San Salvador"
+            },
+            {
+                "name": "San Vicente"
+            },
+            {
+                "name": "Santa Ana"
+            },
+            {
+                "name": "Sonsonate"
+            },
+            {
+                "name": "Usulután"
+            }
+        ]
     },
     {
         "name": "Guayana Francesa",
-        "provincias": []
+        "provincias": [
+            {
+                "name": "Apatou"
+            },
+            {
+                "name": "Awala-Yalimapo"
+            },
+            {
+                "name": "Camopi"
+            },
+            {
+                "name": "Cayena"
+            },
+            {
+                "name": "Grand-Santi"
+            },
+            {
+                "name": "Iracoubo"
+            },
+            {
+                "name": "Kourou"
+            },
+            {
+                "name": "Macouria"
+            },
+            {
+                "name": "Maná"
+            },
+            {
+                "name": "Maripasoula"
+            },
+            {
+                "name": "Matoury"
+            },
+            {
+                "name": "Montsinéry-Tonnegrande"
+            },
+            {
+                "name": "Ouanary"
+            },
+            {
+                "name": "Papaïchton"
+            },
+            {
+                "name": "Régina"
+            },
+            {
+                "name": "Remire-Montjoly"
+            },
+            {
+                "name": "Roura"
+            },
+            {
+                "name": "Saint-Élie"
+            },
+            {
+                "name": "Saint-Georges-de-l'Oyapock"
+            },
+            {
+                "name": "Saint-Laurent-du-Maroni"
+            },
+            {
+                "name": "Saül"
+            },
+            {
+                "name": "Sinnamary"
+            }
+        ]
     },
     {
         "name": "Granada",
-        "provincias": []
+        "provincias": [
+            {
+                "name": "Saint Patrick"
+            },
+            {
+                "name": "Saint Andrew"
+            },
+            {
+                "name": "Saint David"
+            },
+            {
+                "name": "Saint George"
+            },
+            {
+                "name": "Saint John"
+            },
+            {
+                "name": "Saint Mark"
+            }
+        ]
     },
     {
         "name": "Guatemala",
-        "provincias": []
+        "provincias": [
+            {
+                "name": "Quetzaltenango"
+            },
+            {
+                "name": "Retalhuleu"
+            },
+            {
+                "name": "San Marcos"
+            },
+            {
+                "name": "Suchitepéquez"
+            },
+            {
+                "name": "Sololá"
+            },
+            {
+                "name": "Totonicapán"
+            },
+            {
+                "name": "Guatemala"
+            },
+            {
+                "name": "Huehuetenango"
+            },
+            {
+                "name": "Quiché"
+            },
+            {
+                "name": "Chimaltenango"
+            },
+            {
+                "name": "Sacatepéquez"
+            },
+            {
+                "name": "Escuintla"
+            },
+            {
+                "name": "Alta Verapaz"
+            },
+            {
+                "name": "Baja Verapaz"
+            },
+            {
+                "name": "Chiquimula"
+            },
+            {
+                "name": "El Progreso"
+            },
+            {
+                "name": "Izabal"
+            },
+            {
+                "name": "Zacapa"
+            },
+            {
+                "name": "Jutiapa"
+            },
+            {
+                "name": "Jalapa"
+            },
+            {
+                "name": "Santa Rosa"
+            },
+            {
+                "name": "Petén"
+            }
+        ]
     },
     {
         "name": "Guayana",
@@ -1028,7 +1329,136 @@
     },
     {
         "name": "México",
-        "provincias": []
+        "provincias": [
+            {
+                "clave": "AGS",
+                "name": "AGUASCALIENTES"
+            },
+            {
+                "clave": "BC",
+                "name": "BAJA CALIFORNIA"
+            },
+            {
+                "clave": "BCS",
+                "name": "BAJA CALIFORNIA SUR"
+            },
+            {
+                "clave": "CHI",
+                "name": "CHIHUAHUA"
+            },
+            {
+                "clave": "CHS",
+                "name": "CHIAPAS"
+            },
+            {
+                "clave": "CMP",
+                "name": "CAMPECHE"
+            },
+            {
+                "clave": "CMX",
+                "name": "CIUDAD DE MEXICO"
+            },
+            {
+                "clave": "COA",
+                "name": "COAHUILA"
+            },
+            {
+                "clave": "COL",
+                "name": "COLIMA"
+            },
+            {
+                "clave": "DGO",
+                "name": "DURANGO"
+            },
+            {
+                "clave": "GRO",
+                "name": "GUERRERO"
+            },
+            {
+                "clave": "GTO",
+                "name": "GUANAJUATO"
+            },
+            {
+                "clave": "HGO",
+                "name": "HIDALGO"
+            },
+            {
+                "clave": "JAL",
+                "name": "JALISCO"
+            },
+            {
+                "clave": "MCH",
+                "name": "MICHOACAN"
+            },
+            {
+                "clave": "MEX",
+                "name": "ESTADO DE MEXICO"
+            },
+            {
+                "clave": "MOR",
+                "name": "MORELOS"
+            },
+            {
+                "clave": "NAY",
+                "name": "NAYARIT"
+            },
+            {
+                "clave": "NL",
+                "name": "NUEVO LEON"
+            },
+            {
+                "clave": "OAX",
+                "name": "OAXACA"
+            },
+            {
+                "clave": "PUE",
+                "name": "PUEBLA"
+            },
+            {
+                "clave": "QR",
+                "name": "QUINTANA ROO"
+            },
+            {
+                "clave": "QRO",
+                "name": "QUERETARO"
+            },
+            {
+                "clave": "SIN",
+                "name": "SINALOA"
+            },
+            {
+                "clave": "SLP",
+                "name": "SAN LUIS POTOSI"
+            },
+            {
+                "clave": "SON",
+                "name": "SONORA"
+            },
+            {
+                "clave": "TAB",
+                "name": "TABASCO"
+            },
+            {
+                "clave": "TLX",
+                "name": "TLAXCALA"
+            },
+            {
+                "clave": "TMS",
+                "name": "TAMAULIPAS"
+            },
+            {
+                "clave": "VER",
+                "name": "VERACRUZ"
+            },
+            {
+                "clave": "YUC",
+                "name": "YUCATAN"
+            },
+            {
+                "clave": "ZAC",
+                "name": "ZACATECAS"
+            }
+        ]
     },
     {
         "name": "Nicaragua",
