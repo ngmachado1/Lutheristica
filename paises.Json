@@ -1466,7 +1466,84 @@
     },
     {
         "name": "Paraguay",
-        "provincias": []
+        "provincias": [git s
+                {
+                "idDepartamento": 0,
+                "nombreDepartamento": "CAPITAL"
+                },
+                {
+                "idDepartamento": 1,
+                "nombreDepartamento": "CONCEPCION"
+                },
+                {
+                "idDepartamento": 2,
+                "nombreDepartamento": "SAN PEDRO"
+                },
+                {
+                "idDepartamento": 3,
+                "nombreDepartamento": "CORDILLERA"
+                },
+                {
+                "idDepartamento": 4,
+                "nombreDepartamento": "GUAIRA"
+                },
+                {
+                "idDepartamento": 5,
+                "nombreDepartamento": "CAAGUAZU"
+                },
+                {
+                "idDepartamento": 6,
+                "nombreDepartamento": "CAAZAPA"
+                },
+                {
+                "idDepartamento": 7,
+                "nombreDepartamento": "ITAPUA"
+                },
+                {
+                "idDepartamento": 8,
+                "nombreDepartamento": "MISIONES"
+                },
+                {
+                "idDepartamento": 9,
+                "nombreDepartamento": "PARAGUARI"
+                },
+                {
+                "idDepartamento": 10,
+                "nombreDepartamento": "ALTO PARANA"
+                },
+                {
+                "idDepartamento": 11,
+                "nombreDepartamento": "CENTRAL"
+                },
+                {
+                "idDepartamento": 12,
+                "nombreDepartamento": "ÑEEMBUCU"
+                },
+                {
+                "idDepartamento": 13,
+                "nombreDepartamento": "AMAMBAY"
+                },
+                {
+                "idDepartamento": 14,
+                "nombreDepartamento": "CANINDEYU"
+                },
+                {
+                "idDepartamento": 15,
+                "nombreDepartamento": "PRESIDENTE HAYES"
+                },
+                {
+                "idDepartamento": 16,
+                "nombreDepartamento": "BOQUERON"
+                },
+                {
+                "idDepartamento": 17,
+                "nombreDepartamento": "ALTO PARAGUAY"
+                },
+                {
+                "idDepartamento": 199,
+                "nombreDepartamento": "ALC. NACIONAL"
+                }
+        ]
     },
     {
         "name": "Panamá",
