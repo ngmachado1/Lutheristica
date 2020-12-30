@@ -326,137 +326,137 @@
             {
                 "ID": "1",
                 "Sigla": "AC",
-                "Nome": "Acre"
+                "name": "Acre"
             },
             {
                 "ID": "2",
                 "Sigla": "AL",
-                "Nome": "Alagoas"
+                "name": "Alagoas"
             },
             {
                 "ID": "3",
                 "Sigla": "AM",
-                "Nome": "Amazonas"
+                "name": "Amazonas"
             },
             {
                 "ID": "4",
                 "Sigla": "AP",
-                "Nome": "Amapá"
+                "name": "Amapá"
             },
             {
                 "ID": "5",
                 "Sigla": "BA",
-                "Nome": "Bahia"
+                "name": "Bahia"
             },
             {
                 "ID": "6",
                 "Sigla": "CE",
-                "Nome": "Ceará"
+                "name": "Ceará"
             },
             {
                 "ID": "7",
                 "Sigla": "DF",
-                "Nome": "Distrito Federal"
+                "name": "Distrito Federal"
             },
             {
                 "ID": "8",
                 "Sigla": "ES",
-                "Nome": "Espírito Santo"
+                "name": "Espírito Santo"
             },
             {
                 "ID": "9",
                 "Sigla": "GO",
-                "Nome": "Goiás"
+                "name": "Goiás"
             },
             {
                 "ID": "10",
                 "Sigla": "MA",
-                "Nome": "Maranhão"
+                "name": "Maranhão"
             },
             {
                 "ID": "11",
                 "Sigla": "MG",
-                "Nome": "Minas Gerais"
+                "name": "Minas Gerais"
             },
             {
                 "ID": "12",
                 "Sigla": "MS",
-                "Nome": "Mato Grosso do Sul"
+                "name": "Mato Grosso do Sul"
             },
             {
                 "ID": "13",
                 "Sigla": "MT",
-                "Nome": "Mato Grosso"
+                "name": "Mato Grosso"
             },
             {
                 "ID": "14",
                 "Sigla": "PA",
-                "Nome": "Pará"
+                "name": "Pará"
             },
             {
                 "ID": "15",
                 "Sigla": "PB",
-                "Nome": "Paraíba"
+                "name": "Paraíba"
             },
             {
                 "ID": "16",
                 "Sigla": "PE",
-                "Nome": "Pernambuco"
+                "name": "Pernambuco"
             },
             {
                 "ID": "17",
                 "Sigla": "PI",
-                "Nome": "Piauí"
+                "name": "Piauí"
             },
             {
                 "ID": "18",
                 "Sigla": "PR",
-                "Nome": "Paraná"
+                "name": "Paraná"
             },
             {
                 "ID": "19",
                 "Sigla": "RJ",
-                "Nome": "Rio de Janeiro"
+                "name": "Rio de Janeiro"
             },
             {
                 "ID": "20",
                 "Sigla": "RN",
-                "Nome": "Rio Grande do Norte"
+                "name": "Rio Grande do Norte"
             },
             {
                 "ID": "21",
                 "Sigla": "RO",
-                "Nome": "Rondônia"
+                "name": "Rondônia"
             },
             {
                 "ID": "22",
                 "Sigla": "RR",
-                "Nome": "Roraima"
+                "name": "Roraima"
             },
             {
                 "ID": "23",
                 "Sigla": "RS",
-                "Nome": "Rio Grande do Sul"
+                "name": "Rio Grande do Sul"
             },
             {
                 "ID": "24",
                 "Sigla": "SC",
-                "Nome": "Santa Catarina"
+                "name": "Santa Catarina"
             },
             {
                 "ID": "25",
                 "Sigla": "SE",
-                "Nome": "Sergipe"
+                "name": "Sergipe"
             },
             {
                 "ID": "26",
                 "Sigla": "SP",
-                "Nome": "São Paulo"
+                "name": "São Paulo"
             },
             {
                 "ID": "27",
                 "Sigla": "TO",
-                "Nome": "Tocantins"
+                "name": "Tocantins"
             }
         ]
     },
@@ -671,7 +671,7 @@
     },
     {
         "name": "Cuba",
-        "Provincias": [
+        "provincias": [
             {
                 "id": "1",
                 "name": "Pinar del Río",
@@ -1466,83 +1466,83 @@
     },
     {
         "name": "Paraguay",
-        "provincias": [git s
-                {
+        "provincias": [
+            {
                 "idDepartamento": 0,
                 "nombreDepartamento": "CAPITAL"
-                },
-                {
+            },
+            {
                 "idDepartamento": 1,
                 "nombreDepartamento": "CONCEPCION"
-                },
-                {
+            },
+            {
                 "idDepartamento": 2,
                 "nombreDepartamento": "SAN PEDRO"
-                },
-                {
+            },
+            {
                 "idDepartamento": 3,
                 "nombreDepartamento": "CORDILLERA"
-                },
-                {
+            },
+            {
                 "idDepartamento": 4,
                 "nombreDepartamento": "GUAIRA"
-                },
-                {
+            },
+            {
                 "idDepartamento": 5,
                 "nombreDepartamento": "CAAGUAZU"
-                },
-                {
+            },
+            {
                 "idDepartamento": 6,
                 "nombreDepartamento": "CAAZAPA"
-                },
-                {
+            },
+            {
                 "idDepartamento": 7,
                 "nombreDepartamento": "ITAPUA"
-                },
-                {
+            },
+            {
                 "idDepartamento": 8,
                 "nombreDepartamento": "MISIONES"
-                },
-                {
+            },
+            {
                 "idDepartamento": 9,
                 "nombreDepartamento": "PARAGUARI"
-                },
-                {
+            },
+            {
                 "idDepartamento": 10,
                 "nombreDepartamento": "ALTO PARANA"
-                },
-                {
+            },
+            {
                 "idDepartamento": 11,
                 "nombreDepartamento": "CENTRAL"
-                },
-                {
+            },
+            {
                 "idDepartamento": 12,
                 "nombreDepartamento": "ÑEEMBUCU"
-                },
-                {
+            },
+            {
                 "idDepartamento": 13,
                 "nombreDepartamento": "AMAMBAY"
-                },
-                {
+            },
+            {
                 "idDepartamento": 14,
                 "nombreDepartamento": "CANINDEYU"
-                },
-                {
+            },
+            {
                 "idDepartamento": 15,
                 "nombreDepartamento": "PRESIDENTE HAYES"
-                },
-                {
+            },
+            {
                 "idDepartamento": 16,
                 "nombreDepartamento": "BOQUERON"
-                },
-                {
+            },
+            {
                 "idDepartamento": 17,
                 "nombreDepartamento": "ALTO PARAGUAY"
-                },
-                {
+            },
+            {
                 "idDepartamento": 199,
                 "nombreDepartamento": "ALC. NACIONAL"
-                }
+            }
         ]
     },
     {
@@ -1551,7 +1551,108 @@
     },
     {
         "name": "Perú",
-        "provincias": []
+        "provincias": [
+            {
+                "id": "01",
+                "name": "Amazonas"
+            },
+            {
+                "id": "02",
+                "name": "Áncash"
+            },
+            {
+                "id": "03",
+                "name": "Apurímac"
+            },
+            {
+                "id": "04",
+                "name": "Arequipa"
+            },
+            {
+                "id": "05",
+                "name": "Ayacucho"
+            },
+            {
+                "id": "06",
+                "name": "Cajamarca"
+            },
+            {
+                "id": "07",
+                "name": "Callao"
+            },
+            {
+                "id": "08",
+                "name": "Cusco"
+            },
+            {
+                "id": "09",
+                "name": "Huancavelica"
+            },
+            {
+                "id": "10",
+                "name": "Huánuco"
+            },
+            {
+                "id": "11",
+                "name": "Ica"
+            },
+            {
+                "id": "12",
+                "name": "Junín"
+            },
+            {
+                "id": "13",
+                "name": "La Libertad"
+            },
+            {
+                "id": "14",
+                "name": "Lambayeque"
+            },
+            {
+                "id": "15",
+                "name": "Lima"
+            },
+            {
+                "id": "16",
+                "name": "Loreto"
+            },
+            {
+                "id": "17",
+                "name": "Madre de Dios"
+            },
+            {
+                "id": "18",
+                "name": "Moquegua"
+            },
+            {
+                "id": "19",
+                "name": "Pasco"
+            },
+            {
+                "id": "20",
+                "name": "Piura"
+            },
+            {
+                "id": "21",
+                "name": "Puno"
+            },
+            {
+                "id": "22",
+                "name": "San Martín"
+            },
+            {
+                "id": "23",
+                "name": "Tacna"
+            },
+            {
+                "id": "24",
+                "name": "Tumbes"
+            },
+            {
+                "id": "25",
+                "name": "Ucayali"
+            }
+        ]
     },
     {
         "name": "Puerto Rico",
@@ -1567,10 +1668,138 @@
     },
     {
         "name": "Uruguay",
-        "provincias": []
+        "provincias": [
+            {
+                "name": "Artigas"
+            },
+            {
+                "name": "Canelones"
+            },
+            {
+                "name": "Cerro Largo"
+            },
+            {
+                "name": "Colonia"
+            },
+            {
+                "name": "Durazno"
+            },
+            {
+                "name": "Flores"
+            },
+            {
+                "name": "Florida"
+            },
+            {
+                "name": "Lavalleja"
+            },
+            {
+                "name": "Maldonado"
+            },
+            {
+                "name": "Montevideo"
+            },
+            {
+                "name": "Paysandú"
+            },
+            {
+                "name": "Rio Negro"
+            },
+            {
+                "name": "Rivera"
+            },
+            {
+                "name": "Rocha"
+            },
+            {
+                "name": "Salto"
+            },
+            {
+                "name": "San José"
+            },
+            {
+                "name": "Soriano"
+            },
+            {
+                "name": "Tacuarembó"
+            },
+            {
+                "name": "Treinta y tres"
+            }
+        ]
     },
     {
         "name": "Venezuela",
-        "provincias": []
+        "provincias": [
+            {
+                "name": "Amazonas"
+            },
+            {
+                "name": "Anzoátegui"
+            },
+            {
+                "name": "Apure"
+            },
+            {
+                "name": "Aragua"
+            },
+            {
+                "name": "Barinas"
+            },
+            {
+                "name": "Bolívar"
+            },
+            {
+                "name": "Carabobo"
+            },
+            {
+                "name": "Cojedes"
+            },
+            {
+                "name": "Delta Amacuro"
+            },
+            {
+                "name": "Falcón"
+            },
+            {
+                "name": "Guárico"
+            },
+            {
+                "name": "Lara"
+            },
+            {
+                "name": "Mérida"
+            },
+            {
+                "name": "Miranda"
+            },
+            {
+                "name": "Monagas"
+            },
+            {
+                "name": "Nueva Esparta"
+            },
+            {
+                "name": "Portuguesa"
+            },
+            {
+                "name": "Sucre"
+            },
+            {
+                "name": "Táchira"
+            },
+            {
+                "name": "Trujillo"
+            },
+            {
+                "name": "Vargas"
+            },
+            {
+                "name": "Yaracuy"
+            },
+            {
+                "name": "Zulia"
+            }
+        ]
     }
 ]
