@@ -320,6 +320,17 @@ div.radios input{
     margin: 20px 3px 3px 30px;
 
 }
+.img-preview{
+    width: 60%;
+    padding-top: 58px;
+}
+.img-code{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    overflow-y: hidden; 
+    overflow-x: auto;
+}
 
 @media screen and (max-width: 992px) {
     .margint-5{
