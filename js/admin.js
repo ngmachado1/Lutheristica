@@ -65,17 +65,75 @@ function ajaxProvincia(){
 
 }
 
+function editarMiembros(){
+    this.crear = () =>{
+        let crear = document.getElementById('crear')
+        let dashboard_c_m = document.getElementById('crearMiembro')
+        let html = `<div class="card-dashboard">
+                        <div class="container">
 
+                            <h3>Crear nuevo miembrx</h3>
+                            <div class="names">
+                                <input type="text" placeholder="Nombre">
+                                <input type="text" placeholder="Apellido">
+                            </div>
+                            <div class="selects">
+                                <select name="Pais" id="paises">
+                                    <option value="">Elegí País</option>
+                                </select>
+                                <select name="Provincia" id="provincias">
+                                    <option value="">Elegí Provincia</option>
+                                </select>
+                            </div>
+                            <div class="radios">
+                                <input type="radio"> Guitarra
+                                <input type="radio"> Violin
+                                <input type="radio"> Viola
+                                <input type="radio"> Vientos
+                            </div>
+                            <div class="image-file container row">
+                                <br>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <h4>1 Introduce tu imagen</h4>
+                                    <!-- Input file donde se adjunta la imagen -->
+                                    <input class="img-complete" type="file" id="image">
 
-// Esperamos a que todo el HTML esté cargado antes de ejecutar Javascrip
-document.addEventListener('DOMContentLoaded', () => {
+                                    <div id="editor"></div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
 
-    ajaxPais();
+                                    <h4>3 Previsualiza el resultado</h4>
+                                    <!-- Previa del recorte -->
+                                    <canvas class="img-preview" id="preview"></canvas>
 
+                                </div>
+                                <h4>4 Resultado en Base64</h4>
+                                <div class="col-md-6 col-lg-6 col-sm-12 img-code">
+                                    <!-- Muestra de la imagen recortada en Base64 -->
+                                    <code class="" id="base64"></code>
+                                </div>
 
-    ajaxProvincia();
+                            </div>
+                            <div class="buttons">
+                                <button class="primary">
+                                    Crear
+                                </button>
+                            </div>
+                        </div>
+                    </div>`
+            crear.addEventListener('click', () => {
+                dashboard_c_m.innerHTML = "";
+                dashboard_c_m.innerHTML = html;
+                ajaxPais();
+                ajaxProvincia();
+                canvas();
+            })
 
+    }
 
+}
+
+function canvas(){
     // Input File
     const inputImage = document.querySelector('#image');
     // Nodo donde estará el editor
@@ -146,4 +204,16 @@ document.addEventListener('DOMContentLoaded', () => {
         // Proporciona la imagen cruda, sin editarla por ahora
         miNuevaImagenTemp.src = urlImage;
     }
+
+    }
+
+
+// Esperamos a que todo el HTML esté cargado antes de ejecutar Javascrip
+document.addEventListener('DOMContentLoaded', () => {
+
+
+
+    editarMiembros = new editarMiembros();
+    editarMiembros.crear();
+
 });

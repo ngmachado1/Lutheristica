@@ -239,9 +239,11 @@ button.edit:hover{
 }
 .img-members{
     border-radius: 50%;
-    width: 60%;
+    width: 120px;
+    height: 120px;
     margin: 0 auto;
     display: block;
+    padding: 15px;
 }
 .name-member p{
     line-height: 1.5em;

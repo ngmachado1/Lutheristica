@@ -68,7 +68,7 @@
                 <div class="col-md-6  col-sm-12 center">
                     <div class="card-dashboard">
                         <h3>Editar Miembros</h3>
-                        <button class="primary">
+                        <button class="primary" id="crear">
                             CREAR
                         </button>
                         <button class="edit">
@@ -80,59 +80,7 @@
             <form action="">
                 <div class="row">
 
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card-dashboard">
-                            <div class="container">
-
-                                <h3>Crear nuevo miembrx</h3>
-                                <div class="names">
-                                    <input type="text" placeholder="Nombre">
-                                    <input type="text" placeholder="Apellido">
-                                </div>
-                                <div class="selects">
-                                    <select name="Pais" id="paises">
-                                        <option value="">Elegí País</option>
-                                    </select>
-                                    <select name="Provincia" id="provincias">
-                                        <option value="">Elegí Provincia</option>
-                                    </select>
-                                </div>
-                                <div class="radios">
-                                    <input type="radio"> Guitarra
-                                    <input type="radio"> Violin
-                                    <input type="radio"> Viola
-                                    <input type="radio"> Vientos
-                                </div>
-                                <div class="image-file container row">
-                                    <br>
-                                    <div class="col-md-6 col-lg-6 col-sm-12">
-                                        <h4>1 Introduce tu imagen</h4>
-                                        <!-- Input file donde se adjunta la imagen -->
-                                        <input class="img-complete" type="file" id="image">
-    
-                                        <div id="editor"></div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-sm-12">
-
-                                        <h4>3 Previsualiza el resultado</h4>
-                                        <!-- Previa del recorte -->
-                                        <canvas class="img-preview" id="preview"></canvas>
-    
-                                    </div>
-                                    <h4>4 Resultado en Base64</h4>
-                                    <div class="col-md-6 col-lg-6 col-sm-12 img-code">
-                                        <!-- Muestra de la imagen recortada en Base64 -->
-                                        <code class="" id="base64"></code>
-                                    </div>
-
-                                </div>
-                                <div class="buttons">
-                                    <button class="primary">
-                                        Crear
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12" id="crearMiembro">
                     </div>
                 </div>
 
